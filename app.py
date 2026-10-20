@@ -9,8 +9,8 @@ import io
 import streamlit as st
 
 from analyzer import calculate_ats_analysis
-from extractor import ResumeExtractor
-from ui_helpers import (
+from core.extractor import ResumeExtractor
+from core.ui_helpers import (
     inject_custom_css,
     render_ats_truth_banner,
     render_hero_banner,
