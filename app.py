@@ -8,7 +8,7 @@ and actionable improvement suggestions.
 import io
 import streamlit as st
 
-from core.analyzer import calculate_ats_analysis
+from analyzer import calculate_ats_analysis
 from core.extractor import ResumeExtractor
 from core.ui_helpers import (
     inject_custom_css,
